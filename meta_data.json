@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "media",
+        "1": "data (things)",
+        "2": "technical"
+    },
+    "data_tracked": false,
+    "demo_page": "https://plugin.citizendev.io",
+    "description": "OTP Input, for all OTP inputting needs.",
+    "image": "//meta-l.cdn.bubble.io/f1697458651267x591195551905384400/3954528.png",
+    "license": "open_source",
+    "link": "https://plugin.citizendev.io",
+    "name": "✳️ OTP Input",
+    "plugin_instructions": "- Download the plugin, drop the element inside Bubble\n- Customize\n- Use it"
+}

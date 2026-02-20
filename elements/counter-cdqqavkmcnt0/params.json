@@ -1,0 +1,218 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 100,
+        "width": 400
+    },
+    "display": "OTP Input",
+    "events": {
+        "AAV": {
+            "caption": "changed",
+            "name": "changed"
+        },
+        "AAn": {
+            "caption": "completed",
+            "name": "completed"
+        }
+    },
+    "fields": {
+        "AAT": {
+            "caption": "Character Count",
+            "default_val": 4,
+            "editor": "StaticNumber",
+            "name": "digitCount",
+            "rank": 1
+        },
+        "AAW": {
+            "caption": "Input Gap",
+            "default_val": 8,
+            "doc": "Gap spacing between elements in the input",
+            "editor": "StaticNumber",
+            "in_style": true,
+            "name": "style_inputGap",
+            "rank": 4
+        },
+        "AAZ": {
+            "caption": "Input Border Width",
+            "default_val": 1,
+            "editor": "StaticNumber",
+            "in_style": true,
+            "name": "style_inputBorderWidth",
+            "rank": 5
+        },
+        "AAa": {
+            "caption": "Input Border Color",
+            "default_val": "rgba(205, 205, 205, 1)",
+            "editor": "Color",
+            "in_style": true,
+            "name": "style_inputBorderColor",
+            "rank": 6
+        },
+        "AAb": {
+            "caption": "Input Border Radius",
+            "default_val": 4,
+            "editor": "StaticNumber",
+            "in_style": true,
+            "name": "style_inputBorderRadius",
+            "rank": 7
+        },
+        "AAc": {
+            "caption": "Input Background Color",
+            "default_val": "rgba(238,238,238,1)",
+            "editor": "Color",
+            "in_style": true,
+            "name": "style_inputBackgroundColor",
+            "rank": 8
+        },
+        "AAd": {
+            "caption": "Focused Background Color",
+            "default_val": "rgba(217,231,255,1)",
+            "editor": "Color",
+            "in_style": true,
+            "name": "style_focusedBackgroundColor",
+            "rank": 9
+        },
+        "AAe": {
+            "caption": "Focused Border Color",
+            "default_val": "rgba(94,111,209,1)",
+            "editor": "Color",
+            "in_style": true,
+            "name": "style_focusedBorderColor",
+            "rank": 10
+        },
+        "AAf": {
+            "caption": "Separator Width",
+            "default_val": 10,
+            "editor": "StaticNumber",
+            "in_style": true,
+            "name": "style_separatorWidth",
+            "rank": 15
+        },
+        "AAg": {
+            "caption": "Separator Height",
+            "default_val": 2,
+            "editor": "StaticNumber",
+            "in_style": true,
+            "name": "style_separatorHeight",
+            "rank": 16
+        },
+        "AAh": {
+            "caption": "Separator Color",
+            "default_val": "rgba(76,76,76,1)",
+            "editor": "Color",
+            "in_style": true,
+            "name": "style_separatorColor",
+            "rank": 18
+        },
+        "AAj": {
+            "caption": "Show Separator",
+            "default_val": true,
+            "doc": "",
+            "editor": "Checkbox",
+            "in_style": true,
+            "name": "style_showSeparator",
+            "rank": 19
+        },
+        "AAk": {
+            "caption": "----------- 𝗦𝗧𝗬𝗟𝗘 -----------",
+            "editor": "Label",
+            "name": "style_caption",
+            "rank": 3
+        },
+        "AAl": {
+            "caption": "Disabled",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "disabled",
+            "rank": 2,
+            "value": "boolean"
+        },
+        "AAq": {
+            "caption": "Input Type",
+            "default_val": "text",
+            "editor": "Dropdown",
+            "name": "inputType",
+            "options": "text,number,password",
+            "rank": 0
+        },
+        "AAr": {
+            "caption": "Disabled Background Color",
+            "default_val": "rgba(205, 205, 205, 1)",
+            "editor": "Color",
+            "in_style": true,
+            "name": "style_disabledBackgroundColor",
+            "rank": 12
+        },
+        "AAs": {
+            "caption": "Disabled Border Color",
+            "default_val": "rgba(175,175,175,1)",
+            "editor": "Color",
+            "in_style": true,
+            "name": "style_disabledBorderColor",
+            "rank": 13
+        },
+        "AAt": {
+            "caption": "[Preview] Disabled",
+            "default_val": false,
+            "editor": "Checkbox",
+            "in_style": true,
+            "name": "style_previewDisabled",
+            "rank": 20
+        },
+        "AAu": {
+            "caption": "Focused Font Color",
+            "default_val": "rgba(94, 111, 209, 1)",
+            "editor": "Color",
+            "in_style": true,
+            "name": "style_focusedFontColor",
+            "rank": 11
+        },
+        "AAv": {
+            "caption": "Disabled Font Color",
+            "default_val": "rgba(52,52,52,1)",
+            "editor": "Color",
+            "in_style": true,
+            "name": "style_disabledFontColor",
+            "rank": 14
+        },
+        "AAw": {
+            "caption": "Separator Border Radius",
+            "default_val": 4,
+            "editor": "StaticNumber",
+            "in_style": true,
+            "name": "style_separatorRadius",
+            "optional": false,
+            "rank": 17
+        }
+    },
+    "has_reset_fn": true,
+    "icon": "ion-android-checkbox-outline-blank",
+    "property_applications": {
+        "Background": false,
+        "Border": false,
+        "BoxShadow": false,
+        "Font": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    },
+    "states": {
+        "AAU": {
+            "caption": "value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\t\n}"
+            },
+            "name": "value",
+            "value": "text"
+        },
+        "AAo": {
+            "caption": "completed",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "completed",
+            "value": "boolean"
+        }
+    }
+}
